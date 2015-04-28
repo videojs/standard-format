@@ -1,9 +1,12 @@
 {
-  "name": "standard-format",
+  "name": "videojs-standard-format",
   "version": "1.3.6",
-  "description": "attempts to reformat javascript to comply with feross/standard style",
+  "description": "attempts to reformat javascript to comply with videojs/standard style",
   "main": "index.js",
-  "bin": "./bin.js",
+  "bin": {
+    "standard-format": "./bin.js",
+    "videojs-standard-format": "./bin.js"
+  },
   "scripts": {
     "test": "standard && tape test/*.js | tap-spec",
     "test-file": "<test.js ./bin.js | standard",
@@ -11,14 +14,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/maxogden/standard-format.git"
+    "url": "https://github.com/videojs/standard-format.git"
   },
   "author": "max ogden",
   "license": "BSD",
   "bugs": {
-    "url": "https://github.com/maxogden/standard-format/issues"
+    "url": "https://github.com/videojs/standard-format/issues"
   },
-  "homepage": "https://github.com/maxogden/standard-format",
+  "homepage": "https://github.com/videojs/standard-format",
   "dependencies": {
     "esformatter": "^0.6.0",
     "esformatter-eol-last": "^1.0.0",
@@ -37,7 +40,7 @@
     "once": "^1.3.1",
     "skip-stream": "0.0.3",
     "split": "^0.3.3",
-    "standard": "*",
+    "videojs-standard": "*",
     "stream-reduce": "^1.0.3",
     "tap-spec": "^2.2.2",
     "tape": "^3.5.0"

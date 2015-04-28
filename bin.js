@@ -36,7 +36,7 @@ if (argv.help) {
       -w  --write     Directly modify input files.
       -h, --help      Show usage information.
 
-  Readme:  https://github.com/maxogden/standard-format
+  Readme:  https://github.com/videojs/standard-format
 
   */
   }.toString().split(/\n/).slice(2, -2).join('\n'))
