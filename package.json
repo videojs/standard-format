@@ -23,14 +23,14 @@
   },
   "homepage": "https://github.com/videojs/standard-format",
   "dependencies": {
-    "esformatter": "^0.6.0",
+    "esformatter": "^0.10.0",
     "esformatter-eol-last": "^1.0.0",
     "esformatter-literal-notation": "^1.0.0",
     "esformatter-quotes": "^1.0.0",
     "esformatter-spaced-lined-comment": "^2.0.0",
-    "find-root": "^0.1.1",
-    "glob": "^5.0.5",
-    "minimatch": "^2.0.1",
+    "find-root": "^1.0.0",
+    "glob": "^7.1.1",
+    "minimatch": "^3.0.3",
     "minimist": "^1.1.0",
     "stdin": "0.0.1"
   },
@@ -39,11 +39,11 @@
     "debug": "^2.1.1",
     "once": "^1.3.1",
     "skip-stream": "0.0.3",
-    "split": "^0.3.3",
+    "split": "^1.0.0",
     "videojs-standard": "*",
     "stream-reduce": "^1.0.3",
-    "tap-spec": "^2.2.2",
-    "tape": "^3.5.0"
+    "tap-spec": "^4.1.1",
+    "tape": "^4.6.2"
   },
   "standard": {
     "ignore": [
